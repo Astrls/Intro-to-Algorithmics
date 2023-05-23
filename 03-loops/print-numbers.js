@@ -34,5 +34,3 @@ while (x <= n) {
 }
 
 
-
-//print random numbers of integers
