@@ -1,7 +1,7 @@
 const prompt = require("prompt-sync")();
 
-function convName(x) {
-  arr = String(x).split(",");
+function convName(str) {
+  arr = String(str).split(",");
   fName = arr[1].trimStart();
   sName = arr[0];
   return String(`${fName} ${sName}`);
